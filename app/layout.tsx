@@ -6,8 +6,8 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "solamurai",
-    template: "%s | chronark.com",
+    default: "SOLAMURAI",
+    template: "%s | $SOLA",
   },
   description: "The last Samurai on the Solana blockchain",
   openGraph: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "",
     url: "",
-    siteName: "chronark.com",
+    siteName: "",
     images: [
       {
         url: "",
