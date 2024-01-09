@@ -56,26 +56,7 @@ export default function YourPage() {
         {/* Add more space at the bottom */}
         <div className="mt-10" />
 
-        {/* Social media buttons in a horizontal line */}
-        <div className="flex gap-4">
-          <a
-            href="https://twitter.com/your_twitter_handle"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white font-bold hover:underline text-shadow" // Added text-shadow class
-          >
-            Twitter
-          </a>
-          <a
-            href="https://t.me/your_telegram_channel"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white font-bold hover:underline text-shadow" // Added text-shadow class
-          >
-            Telegram
-          </a>
-          {/* Add more social media links as needed */}
-        </div>
+
 
         {/* Purchase button with link */}
         <div className="mt-8">
