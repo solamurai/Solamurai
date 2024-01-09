@@ -51,8 +51,7 @@ export default function Home() {
               className="underline duration-500 hover:text-zinc-300"
             ></Link> ON THE <span className="text-white font-bold">SOLANA BLOCKCHAIN</span>
           </h2>
-          {/* Additional line with "CA:" */}
-          <p className="text-sm text-white mt-40 font-bold">CA:</p>
+      
         </div>
       </div>
     </div>
