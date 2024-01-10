@@ -35,7 +35,7 @@ export const Navigation: React.FC = () => {
 							TWITTER
 						</Link>
 						<Link
-							href="/contact"
+							href="https://twitter.com/solamuraicoin"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							TELEGRAM
