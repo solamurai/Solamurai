@@ -45,8 +45,10 @@ export default function YourPage() {
             <br />
             CA (TBA)
             <br />
+            Tax: 0%
+            <br />
             Dev/Team Allocation: 4%
-            Address:
+            Address: 
             <br />
             Marketing Allocation: 4%
             Address:
