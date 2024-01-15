@@ -35,7 +35,7 @@ export const Navigation: React.FC = () => {
 							TWITTER
 						</Link>
 						<Link
-							href="https://t.me/+srNhqKf32Gw4NmI1"
+							href="https://t.me/solamurai"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							TELEGRAM
