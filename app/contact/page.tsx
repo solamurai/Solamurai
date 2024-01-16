@@ -48,10 +48,10 @@ export default function YourPage() {
             Tax: 0%
             <br />
             Dev/Team Allocation: 4%
-            Address: solamurai.sol
+            Address: 
             <br />
             Marketing Allocation: 4%
-            Address: solatreasury.sol
+            Address: 
           </p>
         </div>
 
