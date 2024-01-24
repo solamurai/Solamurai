@@ -43,7 +43,7 @@ export default function YourPage() {
             <br />
             Supply: 888,888,888 million
             <br />
-            CA (TBA)
+            CA imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj
             <br />
             Tax: 0%
             <br />
