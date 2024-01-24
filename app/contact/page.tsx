@@ -43,15 +43,15 @@ export default function YourPage() {
             <br />
             Supply: 888,888,888 million
             <br />
-            CA imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj
+            CA - imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj
             <br />
             Tax: 0%
             <br />
             Dev/Team Allocation: 4%
-            Address: solamurai.sol
+            solamurai.sol
             <br />
             Marketing Allocation: 4%
-            Address: solatreasury.sol
+            solatreasury.sol
           </p>
         </div>
 
