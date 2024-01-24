@@ -58,6 +58,21 @@ export default function YourPage() {
         {/* Add more space at the bottom */}
         <div className="mt-10" />
 
+        {/* Token Information box */}
+        <div className="mt-8 text-white p-8 rounded-md text-center text-shadow"> {/* Added text-shadow class */}
+          <p>
+           TEAM
+            <br />
+            <br />
+           SHOGUN - Z1 - C0 - YU ME
+           
+          </p>
+        </div>
+
+        {/* Add more space at the bottom */}
+        <div className="mt-10" />
+
+
 
 
         {/* Purchase button with link */}
