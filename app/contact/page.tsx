@@ -64,7 +64,7 @@ export default function YourPage() {
            TEAM
             <br />
             <br />
-           SHOGUN - Z1 - C0 - YU ME
+           SHOGUN - Z - C0 - YU ME - D4RNT
            
           </p>
         </div>
