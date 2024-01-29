@@ -1,7 +1,3 @@
-Your provided code appears to be a Next.js page component (`YourPage`) rendering content for a webpage. The page includes various sections such as a title, introduction, token information, team information, a purchase button, and a warning about cryptocurrency investment.
-
-If you want to integrate the purchase link you provided into the "Purchase" button, you can replace the link inside the `href` attribute of the `Link` component with your desired link. Here's your modified code with the purchase link integrated:
-
 ```jsx
 import Link from "next/link";
 import { Navigation } from "../components/nav";
