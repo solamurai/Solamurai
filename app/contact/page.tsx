@@ -1,10 +1,10 @@
-```jsx
+User
+// your-page-file.js
+
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 
 export default function YourPage() {
-  const swapLink = "https://jup.ag/swap/SOLA_imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj-SOL";
-
   return (
     <div
       className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0"
@@ -65,18 +65,24 @@ export default function YourPage() {
            TEAM
             <br />
             <br />
-           SHOGUN - Z1 - C0 - YU ME - D4RNT
+           SHOGUN - Z1 - C0 - YU ME
+           
           </p>
         </div>
 
         {/* Add more space at the bottom */}
         <div className="mt-10" />
 
+
+
+
         {/* Purchase button with link */}
         <div className="mt-8">
-          <a href={swapLink} className="bg-white text-black font-bold py-2 px-4 rounded">
-            Purchase
-          </a>
+          <Link href="https://jup.ag/swap/SOLA_imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj-SOL">
+            <div className="bg-white text-black font-bold py-2 px-4 rounded">
+              Purchase
+            </div>
+          </Link>
         </div>
 
         {/* Add more space at the bottom */}
@@ -93,6 +99,4 @@ export default function YourPage() {
     </div>
   );
 }
-```
 
-This modification will make the "Purchase" button redirect users to the provided link when clicked.
