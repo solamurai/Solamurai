@@ -1,4 +1,3 @@
-User
 // your-page-file.js
 
 import Link from "next/link";
