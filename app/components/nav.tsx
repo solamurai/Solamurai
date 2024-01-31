@@ -41,7 +41,7 @@ export const Navigation: React.FC = () => {
 							TELEGRAM
 						</Link>
 						<Link
-							href="https://drive.google.com/file/d/1uEnEmMcMymC8DuPo0FSsCDAguV-R6d4x/view?usp=drive_link"
+							href="https://drive.google.com/file/d/1YNIEY9CCeExI9RArvt9x7hoO059MThII/view?usp=drive_link"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							WHITEPAPER
