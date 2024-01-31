@@ -40,6 +40,13 @@ export const Navigation: React.FC = () => {
 						>
 							TELEGRAM
 						</Link>
+						<Link
+							href="file:///C:/Users/User/Desktop/SOLA_WHITEPAPER%20(3).pdf"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							WHITEPAPER
+						</Link>
+
 					</div>
 
 					<Link
