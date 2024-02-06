@@ -36,9 +36,9 @@ export default function YourPage() {
               Token Information:
             </h2>
             <p className="text-white">
-              Contract renounced
-              Mint revoked  
-              LP burnt
+              Contract renounced<br />
+              Mint revoked<br />  
+              LP burnt<br />
               Supply: 888,888,888 million<br />
               CA - imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj<br />
               Tax: 0%<br />
