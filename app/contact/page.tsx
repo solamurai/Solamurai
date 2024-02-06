@@ -100,12 +100,30 @@ export default function YourPage() {
           </div>
         </div>
 
-        <div className="mt-8">
-          <Link href="https://jup.ag/swap/SOLA_imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj-SOL">
-            <div className="bg-white text-black font-bold py-2 px-4 rounded cursor-pointer">
-              Purchase
-            </div>
-          </Link>
+        <div className="mt-8 flex flex-wrap justify-center items-center">
+          <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
+            Swap Platforms:
+          </h2>
+          <div className="flex flex-wrap justify-center items-center">
+            <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj&fixed=in">
+              <a target="_blank">
+                <img
+                  src="/raydium.png"
+                  alt="Raydium"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://jup.ag/swap/SOLA_imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj-SOL">
+              <a target="_blank">
+                <img
+                  src="/jup.png"
+                  alt="JUP"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+          </div>
         </div>
 
         <div className="mt-16" />
@@ -119,4 +137,3 @@ export default function YourPage() {
     </div>
   );
 }
-
