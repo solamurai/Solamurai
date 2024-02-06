@@ -14,15 +14,20 @@ export default function YourPage() {
 
       <div className="container flex flex-col items-center justify-center min-h-screen px-4 mx-auto overflow-y-auto mt-20">
         <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text text-center text-black font-bold text-shadow">
-          DOJO
+          $SOLA
         </h1>
 
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow">
           <p>
             Solamurai Token embodies the ethos of the samurai, where honor, resilience, and strength converge in the decentralized realm. Our token is more than just a digital asset; it's a symbol of empowerment for our community. Through Solamurai, we invite you to join us on a journey of discovery and innovation, where the principles of the past meet the technologies of the future. Check the whitepaper for a deeper dive into the heart and soul of Solamurai Token.
-            <br />
-            <br />
           </p>
+          <div className="mt-4">
+            <Link href="https://drive.google.com/file/d/1YNIEY9CCeExI9RArvt9x7hoO059MThII/view?usp=drive_link">
+              <a target="_blank" className="bg-white text-black px-4 py-2 rounded-md shadow-md hover:bg-gray-200">
+                Whitepaper
+              </a>
+            </Link>
+          </div>
         </div>
 
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow relative">
