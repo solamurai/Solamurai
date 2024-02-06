@@ -39,7 +39,7 @@ export default function YourPage() {
               Contract renounced<br />
               Mint revoked<br />  
               LP burnt<br />
-              Supply: 888,888,888 million<br />
+              Supply: 888M<br />
               CA - imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj<br />
               Tax: 0%<br />
               Dev/Team Allocation: 4% solamurai.sol<br />
