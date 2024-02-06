@@ -33,7 +33,7 @@ export const Navigation: React.FC = () => {
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							<img
-								src="/twitter.png"
+								src="/x.png"
 								alt="Twitter"
 								className="w-6 h-6"
 							/>
