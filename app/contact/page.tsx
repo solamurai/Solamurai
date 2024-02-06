@@ -49,7 +49,7 @@ export default function YourPage() {
 
         <div className="mt-8 flex flex-wrap justify-center items-center">
           <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
-            DEX Platforms:
+            DEX Listings:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
             <h3 className="text-white text-lg font-bold mb-2 text-shadow">Choose a DEX platform:</h3>
