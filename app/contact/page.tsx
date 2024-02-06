@@ -1,5 +1,3 @@
-// your-page-file.js
-
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 
@@ -14,19 +12,12 @@ export default function YourPage() {
     >
       <Navigation />
 
-      {/* Container with scrolling enabled */}
-      <div
-        className="container flex flex-col items-center justify-center min-h-screen px-4 mx-auto overflow-y-auto mt-20"
-      >
-        {/* Title */}
-        <h1
-          className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text text-center text-black font-bold text-shadow" // Added text-shadow class
-        >
+      <div className="container flex flex-col items-center justify-center min-h-screen px-4 mx-auto overflow-y-auto mt-20">
+        <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text text-center text-black font-bold text-shadow">
           DOJO
         </h1>
 
-        {/* Introduction text content */}
-        <div className="mt-8 text-white p-8 rounded-md text-center text-shadow"> {/* Added text-shadow class */}
+        <div className="mt-8 text-white p-8 rounded-md text-center text-shadow">
           <p>
             Welcome to Solamurai Token, a non-utility token where value emanates from its holders in true samurai fashion. Our dojo is a sanctuary for those seeking strength, resilience, and the principles of a free-market arena. In the Solana blockchain dojo, we unite under the banner of strength meeting code, embracing resilience, innovation, and the very spirit that defines a Solamurai. Here, we rise as a community, valuing the principles that shape a decentralized future.
             <br />
@@ -35,8 +26,7 @@ export default function YourPage() {
           </p>
         </div>
 
-        {/* Token Information box */}
-        <div className="mt-8 text-white p-8 rounded-md text-center text-shadow"> {/* Added text-shadow class */}
+        <div className="mt-8 text-white p-8 rounded-md text-center text-shadow">
           <p>
             Token Information:
             <br />
@@ -55,31 +45,75 @@ export default function YourPage() {
           </p>
         </div>
 
-
-        {/* Add more space at the bottom */}
         <div className="mt-10" />
 
+        <div className="mt-8 flex flex-wrap justify-center items-center">
+          <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
+            DEX Platforms:
+          </h2>
+          <div className="flex flex-wrap justify-center items-center">
+            <Link href="YOUR_LINK_TO_BIRDEYE">
+              <a target="_blank">
+                <img
+                  src="/birdeye.png"
+                  alt="Birdeye"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="YOUR_LINK_TO_DEX">
+              <a target="_blank">
+                <img
+                  src="/dex.png"
+                  alt="DEX"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="YOUR_LINK_TO_GECKO">
+              <a target="_blank">
+                <img
+                  src="/gecko.png"
+                  alt="Gecko"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="YOUR_LINK_TO_MOONTOK">
+              <a target="_blank">
+                <img
+                  src="/moontok.png"
+                  alt="Moontok"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="YOUR_LINK_TO_NTM">
+              <a target="_blank">
+                <img
+                  src="/NTM.png"
+                  alt="NTM"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+          </div>
+        </div>
 
-
-
-        {/* Purchase button with link */}
         <div className="mt-8">
           <Link href="https://jup.ag/swap/SOLA_imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj-SOL">
-            <div className="bg-white text-black font-bold py-2 px-4 rounded">
+            <div className="bg-white text-black font-bold py-2 px-4 rounded cursor-pointer">
               Purchase
             </div>
           </Link>
         </div>
 
-        {/* Add more space at the bottom */}
         <div className="mt-16" />
 
-        {/* Warning about cryptocurrency */}
-        <p className="text-white text-center font-bold italic text-shadow"> {/* Added text-shadow class */}
+        <p className="text-white text-center font-bold italic text-shadow">
           WARNING: The path of crypto investment is treacherous. Invest wisely, embrace risk, but never more than your soul can endure.
         </p>
 
-        {/* Add more space at the bottom */}
         <div className="mt-6" />
       </div>
     </div>
