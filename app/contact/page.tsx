@@ -52,7 +52,7 @@ export default function YourPage() {
             DEX Platforms:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
-            <Link href="YOUR_LINK_TO_BIRDEYE">
+            <Link href="https://birdeye.so/token/imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj?chain=sola">
               <a target="_blank">
                 <img
                   src="/birdeye.png"
@@ -61,7 +61,7 @@ export default function YourPage() {
                 />
               </a>
             </Link>
-            <Link href="YOUR_LINK_TO_DEX">
+            <Link href="https://dexscreener.com/solana/7memhmneojvbvykmiyhz4mk7yaksha12467q3jgh4sm6">
               <a target="_blank">
                 <img
                   src="/dex.png"
@@ -70,7 +70,7 @@ export default function YourPage() {
                 />
               </a>
             </Link>
-            <Link href="YOUR_LINK_TO_GECKO">
+            <Link href="https://www.geckoterminal.com/solana/pools/7MeMHmNeojVbvykmiYhZ4mK7YaKsHa12467Q3jgH4sM6">
               <a target="_blank">
                 <img
                   src="/gecko.png"
@@ -79,7 +79,7 @@ export default function YourPage() {
                 />
               </a>
             </Link>
-            <Link href="YOUR_LINK_TO_MOONTOK">
+            <Link href="https://moontok.io/coins/solamurai-coin">
               <a target="_blank">
                 <img
                   src="/moontok.png"
@@ -88,7 +88,7 @@ export default function YourPage() {
                 />
               </a>
             </Link>
-            <Link href="YOUR_LINK_TO_NTM">
+            <Link href="https://ntm.ai/token/imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj?source=post_page-----c89efe8ac7cd--------------------------------">
               <a target="_blank">
                 <img
                   src="/NTM.png"
