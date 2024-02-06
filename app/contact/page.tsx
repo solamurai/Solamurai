@@ -28,7 +28,7 @@ export default function YourPage() {
 
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow relative">
           {/* Black partially transparent box */}
-          <div className="bg-black bg-opacity-50 absolute inset-0 rounded-md"></div>
+          <div className="bg-black bg-opacity-75 absolute inset-0 rounded-md"></div>
           
           {/* Token Information */}
           <div className="relative z-10">
