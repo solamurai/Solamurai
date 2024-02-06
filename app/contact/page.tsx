@@ -102,7 +102,7 @@ export default function YourPage() {
 
         <div className="mt-8 flex flex-wrap justify-center items-center">
           <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
-            Swap Platforms:
+            Purchase $SOLA:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
             <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj&fixed=in">
