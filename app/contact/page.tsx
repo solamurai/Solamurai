@@ -49,10 +49,9 @@ export default function YourPage() {
 
         <div className="mt-8 flex flex-wrap justify-center items-center">
           <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
-            DEX Listings:
+            DEX LISTINGS:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
-            <h3 className="text-white text-lg font-bold mb-2 text-shadow">Choose a DEX platform:</h3>
             <Link href="https://birdeye.so/token/imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj?chain=sola">
               <a target="_blank">
                 <img
@@ -103,10 +102,9 @@ export default function YourPage() {
 
         <div className="mt-8 flex flex-wrap justify-center items-center">
           <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
-            Purchase $SOLA:
+            BUY/SWAP $SOLA:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
-            <h3 className="text-white text-lg font-bold mb-2 text-shadow">Choose a platform to purchase $SOLA:</h3>
             <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj&fixed=in">
               <a target="_blank">
                 <img
@@ -130,10 +128,9 @@ export default function YourPage() {
 
         <div className="mt-8 flex flex-wrap justify-center items-center">
           <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
-            Wallets:
+            CRYPTO WALLETS:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
-            <h3 className="text-white text-lg font-bold mb-2 text-shadow">Choose a wallet:</h3>
             <Link href="https://phantom.app/">
               <a target="_blank">
                 <img
