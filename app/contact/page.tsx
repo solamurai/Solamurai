@@ -52,6 +52,7 @@ export default function YourPage() {
             DEX Platforms:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
+            <h3 className="text-white text-lg font-bold mb-2 text-shadow">Choose a DEX platform:</h3>
             <Link href="https://birdeye.so/token/imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj?chain=sola">
               <a target="_blank">
                 <img
@@ -105,6 +106,7 @@ export default function YourPage() {
             Purchase $SOLA:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
+            <h3 className="text-white text-lg font-bold mb-2 text-shadow">Choose a platform to purchase $SOLA:</h3>
             <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj&fixed=in">
               <a target="_blank">
                 <img
@@ -131,6 +133,7 @@ export default function YourPage() {
             Wallets:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
+            <h3 className="text-white text-lg font-bold mb-2 text-shadow">Choose a wallet:</h3>
             <Link href="https://phantom.app/">
               <a target="_blank">
                 <img
