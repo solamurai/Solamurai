@@ -26,23 +26,23 @@ export default function YourPage() {
           </p>
         </div>
 
-        <div className="mt-8 text-white p-8 rounded-md text-center text-shadow">
-          <p>
-            Token Information:
-            <br />
-            <br />
-            Supply: 888,888,888 million
-            <br />
-            CA - imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj
-            <br />
-            Tax: 0%
-            <br />
-            Dev/Team Allocation: 4%
-            solamurai.sol
-            <br />
-            Marketing Allocation: 4%
-            solatreasury.sol
-          </p>
+        <div className="mt-8 text-white p-8 rounded-md text-center text-shadow relative">
+          {/* Black partially transparent box */}
+          <div className="bg-black bg-opacity-50 absolute inset-0 rounded-md"></div>
+          
+          {/* Token Information */}
+          <div className="relative z-10">
+            <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
+              Token Information:
+            </h2>
+            <p className="text-white">
+              Supply: 888,888,888 million<br />
+              CA - imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj<br />
+              Tax: 0%<br />
+              Dev/Team Allocation: 4% solamurai.sol<br />
+              Marketing Allocation: 4% solatreasury.sol
+            </p>
+          </div>
         </div>
 
         <div className="mt-10" />
