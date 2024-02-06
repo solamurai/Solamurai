@@ -126,6 +126,32 @@ export default function YourPage() {
           </div>
         </div>
 
+        <div className="mt-8 flex flex-wrap justify-center items-center">
+          <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
+            Wallets:
+          </h2>
+          <div className="flex flex-wrap justify-center items-center">
+            <Link href="https://phantom.app/">
+              <a target="_blank">
+                <img
+                  src="/phantom.png"
+                  alt="Phantom"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://solflare.com/">
+              <a target="_blank">
+                <img
+                  src="/solflare.png"
+                  alt="Solflare"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+          </div>
+        </div>
+
         <div className="mt-16" />
 
         <p className="text-white text-center font-bold italic text-shadow">
