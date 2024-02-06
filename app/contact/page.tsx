@@ -20,10 +20,9 @@ export default function YourPage() {
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow">
           <p>
             Solamurai Token embodies the ethos of the samurai, where honor, resilience, and strength converge in the decentralized realm. Our token is more than just a digital asset; it's a symbol of empowerment for our community. Through Solamurai, we invite you to join us on a journey of discovery and innovation, where the principles of the past meet the technologies of the future. Check the whitepaper for a deeper dive into the heart and soul of Solamurai Token.
-            <p>  
             <br />
             <br />
-            
+          </p>
         </div>
 
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow relative">
