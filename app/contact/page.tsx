@@ -19,11 +19,10 @@ export default function YourPage() {
 
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow">
           <p>
-            Welcome to Solamurai Token, a non-utility token where value emanates from its holders in true samurai fashion. Our dojo is a sanctuary for those seeking strength, resilience, and the principles of a free-market arena. In the Solana blockchain dojo, we unite under the banner of strength meeting code, embracing resilience, innovation, and the very spirit that defines a Solamurai. Here, we rise as a community, valuing the principles that shape a decentralized future.
+            Solamurai Token embodies the ethos of the samurai, where honor, resilience, and strength converge in the decentralized realm. Our token is more than just a digital asset; it's a symbol of empowerment for our community. Through Solamurai, we invite you to join us on a journey of discovery and innovation, where the principles of the past meet the technologies of the future. Check the whitepaper for a deeper dive into the heart and soul of Solamurai Token.
             <br />
             <br />
-            Solamurai Token allocates 8%, with 4% for development and the team, and an additional 4% for marketing initiatives, potentially including efforts for centralized exchange (CEX) listings if decided by the community or better LP farming allocation. Our innovative marketing strategy involves selling portions of the allocation as we reach milestones, initially focusing on organic growth through word of mouth. As we build a solid foundation, we'll progressively implement marketing initiatives, aligning with the community's growth and goals. Sharpen your skills, fortify your resolve, and let the blockchain battles commence. May your transactions be swift, your code robust, and your journey legendary. Together, Solamurai, we forge the path to the decentralized horizon. Join us in shaping the future of decentralized currency, where the value comes from its holders in a true samurai way.
-          </p>
+            
         </div>
 
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow relative">
