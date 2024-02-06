@@ -58,7 +58,26 @@ export const Navigation: React.FC = () => {
                 className="w-6 h-6"
               />
             </Link>
-
+            <Link
+              href="https://drive.google.com/file/d/1YNIEY9CCeExI9RArvt9x7hoO059MThII/view?usp=drive_link"
+              className="duration-200 text-zinc-400 hover:text-zinc-100"
+            >
+              <img
+                src="/whitepaper.png"
+                alt="Whitepaper"
+                className="w-6 h-6"
+              />
+            </Link>
+            <Link
+              href="/"
+              className="duration-200 text-zinc-400 hover:text-zinc-100"
+            >
+              <img
+                src="/x.png"
+                alt="Return Home"
+                className="w-6 h-6"
+              />
+            </Link>
           </div>
 
           <Link
