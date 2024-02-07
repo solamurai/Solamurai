@@ -6,12 +6,12 @@ export default function YourPage() {
     <div
       className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0"
       style={{
-        backgroundImage: 'url("/shogun.png")', // Change the image path accordingly
+        backgroundImage: 'url("/shogun.png")',
         backgroundSize: 'cover',
       }}
     >
       <Navigation />
-      {/* Add other content here */}
+      {/* Other content goes here */}
     </div>
   );
 }
