@@ -160,6 +160,15 @@ export default function YourPage() {
           </div>
         </div>
 
+        {/* Your embedded link */}
+        <div className="mt-16 flex flex-wrap justify-center items-center">
+          <Link href="https://www.geckoterminal.com/solana/pools/7MeMHmNeojVbvykmiYhZ4mK7YaKsHa12467Q3jgH4sM6">
+            <a target="_blank" className="text-white text-center">
+              <p>Check out our token on Gecko Terminal</p>
+            </a>
+          </Link>
+        </div>
+
         <div className="mt-16" />
 
         <p className="text-white text-center font-bold italic text-shadow">
