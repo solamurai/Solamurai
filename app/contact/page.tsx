@@ -51,7 +51,51 @@ export default function YourPage() {
             DEX LISTINGS:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
-            {/* Links to DEX listings */}
+            <Link href="https://birdeye.so/token/imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj?chain=sola">
+              <a target="_blank">
+                <img
+                  src="/birdeye.png"
+                  alt="Birdeye"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://dexscreener.com/solana/7memhmneojvbvykmiyhz4mk7yaksha12467q3jgh4sm6">
+              <a target="_blank">
+                <img
+                  src="/dex.png"
+                  alt="DEX"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://www.geckoterminal.com/solana/pools/7MeMHmNeojVbvykmiYhZ4mK7YaKsHa12467Q3jgH4sM6">
+              <a target="_blank">
+                <img
+                  src="/gecko.png"
+                  alt="Gecko"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://moontok.io/coins/solamurai-coin">
+              <a target="_blank">
+                <img
+                  src="/moontok.png"
+                  alt="Moontok"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://ntm.ai/token/imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj?source=post_page-----c89efe8ac7cd--------------------------------">
+              <a target="_blank">
+                <img
+                  src="/NTM.png"
+                  alt="NTM"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
           </div>
         </div>
 
@@ -60,7 +104,24 @@ export default function YourPage() {
             BUY/SWAP $SOLA:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
-            {/* Links to buy/swap $SOLA */}
+            <Link href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj&fixed=in">
+              <a target="_blank">
+                <img
+                  src="/raydium.png"
+                  alt="Raydium"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://jup.ag/swap/SOLA_imuB8gpxjqj8EZLSTMMUGtpLgLm51D9VtijjCuewcuj-SOL">
+              <a target="_blank">
+                <img
+                  src="/jup.png"
+                  alt="JUP"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
           </div>
         </div>
 
@@ -69,7 +130,24 @@ export default function YourPage() {
             CRYPTO WALLETS:
           </h2>
           <div className="flex flex-wrap justify-center items-center">
-            {/* Links to crypto wallets */}
+            <Link href="https://phantom.app/">
+              <a target="_blank">
+                <img
+                  src="/phantom.png"
+                  alt="Phantom"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
+            <Link href="https://solflare.com/">
+              <a target="_blank">
+                <img
+                  src="/solflare.png"
+                  alt="Solflare"
+                  className="w-16 h-16 mx-2 cursor-pointer"
+                />
+              </a>
+            </Link>
           </div>
         </div>
 
