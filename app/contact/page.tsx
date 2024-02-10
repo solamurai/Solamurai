@@ -168,8 +168,8 @@ export default function YourPage() {
             src="https://www.retrogames.cc/embed/9729-samurai-shodown-ii-shin-samurai-spirits-haohmaru-jigokuhen-ngm-063-ngh-063.html"
             width="600"
             height="450"
-            frameborder="no"
-            allowfullscreen="true"
+            frameBorder="0"
+            allowFullScreen
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
             scrolling="no"
