@@ -160,9 +160,20 @@ export default function YourPage() {
           </div>
         </div>
 
-<iframe src="https://www.retrogames.cc/embed/9729-samurai-shodown-ii-shin-samurai-spirits-haohmaru-jigokuhen-ngm-063-ngh-063.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
-
         <div className="mt-16" />
+
+        {/* Embedded iframe */}
+        <iframe
+          src="https://www.retrogames.cc/embed/9729-samurai-shodown-ii-shin-samurai-spirits-haohmaru-jigokuhen-ngm-063-ngh-063.html"
+          width="600"
+          height="450"
+          frameborder="no"
+          allowfullscreen="true"
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+          scrolling="no"
+          className="mt-8"
+        ></iframe>
 
         <p className="text-white text-center font-bold italic text-shadow">
           WARNING: The path of crypto investment is treacherous. Invest wisely, embrace risk, but never more than your soul can endure.
