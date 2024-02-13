@@ -68,6 +68,16 @@ export const Navigation: React.FC = () => {
                                 className="w-6 h-6"
                             />
                         </Link>
+                                            <Link
+                            href="https://warpcast.com/solamurai"
+                            className="duration-200 text-zinc-400 hover:text-zinc-100"
+                        >
+                            <img
+                                src="/farcaster.png"
+                                alt="Farcaster"
+                                className="w-6 h-6"
+                            />
+                        </Link>
                         <Link
                             href="https://medium.com/@solamurai"
                             className="duration-200 text-zinc-400 hover:text-zinc-100"
