@@ -3,7 +3,13 @@ import { Navigation } from "../components/nav";
 
 export default function YourPage() {
   return (
-    <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+    <div
+      className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0"
+      style={{
+        backgroundImage: 'url("/dojo1.png")',
+        backgroundSize: 'cover',
+      }}
+    >
       <Navigation />
 
       <div className="container flex flex-col items-center justify-center min-h-screen px-4 mx-auto overflow-y-auto mt-20">
@@ -25,7 +31,10 @@ export default function YourPage() {
         </div>
 
         <div className="mt-8 text-white p-8 rounded-md text-center text-shadow relative">
+          {/* Black partially transparent box */}
           <div className="bg-black bg-opacity-75 absolute inset-0 rounded-md"></div>
+          
+          {/* Token Information */}
           <div className="relative z-10">
             <h2 className="text-white text-2xl font-bold mb-4 text-shadow">
               Token Information:
@@ -151,25 +160,14 @@ export default function YourPage() {
           </div>
         </div>
 
+
         <div className="mt-16" />
 
         <p className="text-white text-center font-bold italic text-shadow">
           WARNING: The path of crypto investment is treacherous. Invest wisely, embrace risk, but never more than your soul can endure.
         </p>
 
-        {/* Embedded iframe */}
-        <div className="mt-8 text-center">
-          <iframe
-            src="https://www.retrogames.cc/embed/9729-samurai-shodown-ii-shin-samurai-spirits-haohmaru-jigokuhen-ngm-063-ngh-063.html"
-            width="600"
-            height="450"
-            frameBorder="0"
-            allowFullScreen
-            webkitallowfullscreen="true"
-            mozallowfullscreen="true"
-            scrolling="no"
-          ></iframe>
-        </div>
+        <div className="mt-6" />
       </div>
     </div>
   );
